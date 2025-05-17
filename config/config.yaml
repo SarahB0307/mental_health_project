@@ -1,0 +1,10 @@
+seed: 42
+paths:
+  raw_data: data/raw/mental_health.csv
+  processed_dir: data/processed
+  model_dir: models
+model:
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+    random_state: 42
